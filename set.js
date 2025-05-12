@@ -9,7 +9,7 @@ const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
-const prefix = process.env.PREFIX || '/';
+const prefix = process.env.PREFIX || '+';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
@@ -19,9 +19,9 @@ const antidel = process.env.ANTIDELETE || 'TRUE';
 const botname = process.env.BOTNAME || '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'𝗕𝗢𝗧';
-const packname = process.env.STICKER_PACKNAME || '𝗠𝗭𝗔𝗭𝗜';
-const dev = process.env.DEV || '254741388986';
-const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
+const packname = process.env.STICKER_PACKNAME || 'YOU';
+const dev = process.env.DEV || '254746312570';
+const anticall = process.env.AUTOREJECT_CALL || 'FALSE';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevMzazi = dev.split(",");
